@@ -4,3 +4,6 @@ up:
 	docker compose up -d --build --wait
 down:
 	docker compose down
+reup:
+	$(MAKE) down
+	$(MAKE) up
