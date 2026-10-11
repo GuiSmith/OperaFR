@@ -37,7 +37,7 @@ services:
     env_file:
       - .env
     ports:
-      - "2111:2111"
+      - "${PORT}:${PORT}"
       - "5555:5555"
       - "5556:5556"
     volumes:
