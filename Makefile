@@ -7,3 +7,5 @@ down:
 reup:
 	$(MAKE) down
 	$(MAKE) up
+bkp:
+	bash scripts/backup.sh "$(BKP_DIR)"
